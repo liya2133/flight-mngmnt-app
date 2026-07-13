@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import View from './components/View'
 import Nav from './components/Nav'
+import AddFlights from './components/AddFlights'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
     <>
       <View/>
       <Nav/>
+      <AddFlights />
     </>
   )
 }
